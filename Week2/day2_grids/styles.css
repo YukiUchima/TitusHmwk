@@ -1,0 +1,109 @@
+header{
+        position: fixed;
+        background: #fff;
+        top: 0;
+        left: 0;
+        z-index: 10;
+        width: 100%;
+        height: 60px;
+        border-bottom: 4px solid green;
+     }
+
+     nav{
+        float: right;
+        padding: 5px;
+     }
+
+     nav ul{
+        list-style: none;
+        padding: 0;
+     }
+
+     nav ul li{
+        float: left;
+        padding: 10px;
+        box-sizing: content-box;
+        /* height: 20px;
+        background-color: red;
+        border: solid 2px rgb(139, 139, 139); */
+    }
+
+    nav ul li a{
+        text-decoration: none;
+        color: black;
+        
+
+    }
+
+    #menu-icon{
+        display: hidden;
+        height: 40px;
+        width: 40px;
+        color: red;
+        background: url(https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTk7z6qSJdV8wmm0xwR4nrK5OPwhOfXJPqzrIG3ynOlOoGHyc4PSyrvpQ);
+        background-size: contain;
+    }
+
+    @media only screen and (max-width: 768px){
+        header {
+            position: absolute;
+            border-bottom: 4px solid red;
+        }
+
+        a, a:active, a:visited{
+            color: white;
+        }
+
+        #menu-icon{
+            display: inline-block;
+        }
+
+        nav ul, nav:active ul{
+            display: none;
+            position: absolute;
+            background: #fff;
+            right: 0;
+            border: 5px solid #000;
+            width: 100%;
+        }
+
+        nav li:last-of-type{
+            border-bottom: none;
+        }
+
+        nav:hover ul{
+            display: block;
+
+        }
+
+        nav ul li {
+            width: 100%;
+            margin: 0;
+            text-align: center;
+            padding: 20px 0;
+            background-color: red;
+            border-bottom: 1px solid #fff;
+        }
+
+    }
+
+
+
+    #box1{
+        width: 100px;
+        height: 50px;
+        background-color: rgb(15, 15, 107);
+    }
+
+    #inner{
+        position: relative;
+        background-color: #fff;
+        width: 50%;
+        z-index: 10;
+    }
+
+    #box2{
+        width: 75px;
+        height: 20px;
+        background-color: red;
+    }

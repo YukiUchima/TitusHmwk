@@ -1,0 +1,3 @@
+Bootstrap - framework
+React - Library
+CDN - content delivery network

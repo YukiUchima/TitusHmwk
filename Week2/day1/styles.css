@@ -1,0 +1,22 @@
+* {
+    background-color: gray;
+    color:rgb(91, 66, 2) ;
+    padding-left: 30px;
+    margin-right: 100px;
+}
+
+.box1{
+    background-color: rgb(55, 146, 96);
+    color:white;
+    display: inline;
+}
+
+.box2{
+    background-color:bisque;
+    display: inline-block;
+    height: 50px;
+}
+
+.box3 {
+    background-color: rgb(238, 148, 13);
+}
